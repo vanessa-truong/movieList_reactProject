@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.movie_grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+
+.movie_grid  div {
+  background-color: black;
+  color: white;
+}
+
+.genre_font {
+  font-weight: 300;
+  line-height: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  margin: 30px 10px;
+  padding: 10px 20px;
+}
